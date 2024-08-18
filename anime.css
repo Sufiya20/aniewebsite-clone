@@ -1,0 +1,855 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    padding: 0px 15px 0px 15px;
+}
+
+.main {
+    padding: 23px 0;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+ul {
+    display: flex;
+    gap: 19px;
+    list-style: none;
+    width: 40%;
+}
+
+.secondary {
+    height: 150vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.one {
+    display: grid;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.image {
+    background-image: url("https://www.animeexplained.com/wp-content/uploads/2023/12/King-Shanks-One-Piece.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 85vh;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.img {
+    background-image: url("maxresdefault-10.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20vw; 
+    height: 25vh; 
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs {
+    background-image: url("https://www.animeexplained.com/wp-content/uploads/2023/12/image_2021-07-28_112556.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20vw; 
+    height: 25vh; 
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.im {
+    background-image: url("maxresdefault-3.webp");
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20vw; 
+    height: 35vh; 
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #6cff84;
+    outline: 0;
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.1875;
+    text-transform: uppercase;
+    border: 0;
+}
+
+h1{
+    color: white;
+    font-weight: 800;
+    font-size: 3.6rem;
+    line-height: 1.11;
+    letter-spacing: -.01em;
+    font-family: "Inter",sans-serif;
+    text-transform: uppercase;
+}
+
+.my{
+    Display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    padding: 0 24px;
+    gap: 20px;
+}
+
+h4,h2{
+    color: white;
+    font-family: "Inter",sans-serif;
+    text-transform: uppercase;
+}
+.life{
+    Display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    padding: 0 24px;
+    gap: 12px;
+}
+
+.i{
+    display: flex;
+    padding: 20px 12px 0px 12px
+}
+
+
+.line{
+    border-bottom: 1px solid #484848;
+    margin: 0 0 24px
+}
+
+.post{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+h2{
+    color: white;
+    font-family: "Inter",sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+h3{
+    color: white;
+    font-family: "Inter",sans-serif;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+.SECOND{
+    width: 98%;
+    padding-left: 20px;
+}
+.segment{
+    position: relative;
+    margin-bottom: 16px;
+    padding-left: 21px;
+}
+
+.thirdcontent{
+    padding: 20px 12px 0px 12px
+}
+
+.thirdcontents{
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ryy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+}
+
+.pics{
+    width: 98%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.forthcontent{
+    padding: 20px 12px 0px 12px;
+    width: 75%;
+}
+.ft{
+padding-bottom: 12px;
+}
+
+.pi{
+    width: 4%;
+    height: 7%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.ftr{
+    display: flex;
+}
+.fivthcontent{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-gap: 20px;
+    padding: 20px 12px 0px 12px
+}
+
+.fivth{
+    width: 75%;
+}
+
+.li{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding-bottom: 12px;
+}
+
+.pc{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.p{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lin{
+    margin-bottom: 10px;
+}
+
+.pa{
+    padding-top: 8px;
+}
+
+footer{
+    background-color: #252525;
+    margin-top: 11.7%;
+    width: 100%;
+    height: 40%;
+}
+
+.footer{
+    display: flex;
+    padding: 56px 0px 56px 0px;
+}
+.footerlo{
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    width: 305px;
+    margin-left: 25px;
+}
+
+.footerco{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 38%;
+    justify-content: space-around;
+    list-style: none;
+}
+.footerul {
+    display: grid;
+    gap: 2px;
+    list-style: none;
+    width: 55%;
+    grid-template-columns: 1fr 1fr;
+}
+
+li{
+    font-family: "Inter",sans-serif;
+    font-size: 18px;
+    line-height: 1.67;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+}
+.footerin{
+    flex: none;
+    display: flex;
+    width: 29%;
+}
+
+.foot{
+    position: relative;
+    right: -154px;
+        width: 46%;
+        padding: 8px 16px;
+        border: 1px solid #484848;
+        border-radius: 0;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "Inter",sans-serif;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: none;
+        color: #fff;
+        display: flex;
+        justify-content: flex-start;
+}
+
+.in{
+    width: 40%;
+    border: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0);
+    font-family: "Inter",sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75; 
+    cursor: pointer;
+
+}
+
+.into{
+    width: 40%;
+    border: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0);
+    font-family: "Inter",sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75; 
+    cursor: pointer;
+    position: relative;
+    right: -107px;
+}
+
+.footerbottom{
+    margin: 0px 12px 0px 12px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    color: white;
+}
+
+/* @media only screen and (max-width: 1122px){
+    .container {
+        display: flex;
+        width: 100%;
+        padding-left: 13px;
+    }
+   
+    footer{
+        background-color: #252525;
+        margin-top: 11.7%;
+        width: 100%;
+        height: 40%;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .container {
+        display: flex;
+        width: 100%;
+        padding-left: 13px;
+    }
+    .image{
+        width: 50%;
+    height: 55vh;
+    opacity: 0.6;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    }
+
+} */
+
